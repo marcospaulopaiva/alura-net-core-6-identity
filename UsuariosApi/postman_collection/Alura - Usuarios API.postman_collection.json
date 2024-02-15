@@ -63,6 +63,35 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Acesso",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hcmNvc1BhdWxvIiwiaWQiOiJjNDlhNmYwOC0yOWE3LTQ3NGQtOWViZC1kNzgwZjU1Y2Q5YTciLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjAxLzAxLzE5MDAgMDA6MDA6MDAiLCJleHAiOjE3MDgwMjY3Mjd9.P1JIeDd54DAMgyKx7uL7bSHiffShxxCmvMB47Gg6Hkk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7075/acesso",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7075",
+					"path": [
+						"acesso"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
