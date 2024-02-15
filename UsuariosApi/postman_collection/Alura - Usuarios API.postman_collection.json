@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "218128fd-9eee-4931-96e5-181d80a766b9",
+		"name": "Alura - Usuarios API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2957976"
+	},
+	"item": [
+		{
+			"name": "Cadastra Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserName\": \"MarcosPaulo\",\r\n    \"DataNascimento\": \"1900-01-01\",\r\n    \"Password\": \"Senha123!\",\r\n    \"RePassword\": \"Senha123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7075/usuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7075",
+					"path": [
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
