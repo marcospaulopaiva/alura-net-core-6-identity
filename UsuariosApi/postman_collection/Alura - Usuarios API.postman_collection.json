@@ -21,14 +21,44 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:7075/usuario",
+					"raw": "https://localhost:7075/usuario/cadastro",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
 					"port": "7075",
 					"path": [
-						"usuario"
+						"usuario",
+						"cadastro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserName\": \"MarcosPaulo\",\r\n    \"Password\": \"Senha123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7075/usuario/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7075",
+					"path": [
+						"usuario",
+						"login"
 					]
 				}
 			},
